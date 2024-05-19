@@ -1,0 +1,58 @@
+MetaFileClass {
+ Name "{355AED62F3E80499}EotechVudu/Assets/VuduBlender02.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6167195F735CA6DA}" {
+     SourceMaterial "Optic_pip"
+     AssignedMaterial "{0091FAECFC169506}Assets/Weapons/Attachments/Optics/ARTII/Data/Optic_ARTII_PIPMaterial.emat"
+    }
+    MaterialAssignClass "{6167195F735CA6D0}" {
+     SourceMaterial "optic_scope"
+     AssignedMaterial "{5EB4DFFEC54ED64B}EotechVudu/Assets/Textures/ScopeMaterial.emat"
+    }
+    MaterialAssignClass "{6167195F735CA6CD}" {
+     SourceMaterial "optic_mount"
+     AssignedMaterial "{9CEB5CE3BCAC7BC6}EotechVudu/Assets/Textures/ScopeMountMaterial.emat"
+    }
+    MaterialAssignClass "{6167195F735CA6CC}" {
+     SourceMaterial "Optic_lensglass"
+     AssignedMaterial "{7F1C0B091245A9F3}Assets/BaconOptics/Specter/data/specter_glass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Glass_low {
+    }
+    MeshParam Mount_low {
+    }
+    MeshParam PIP {
+    }
+    MeshParam Scope_low {
+    }
+   }
+   Common TXOCommonClass "{6167195F734E4F5F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6167195F734E7033}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6167195F734E7007}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6167195F734E70E5}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6167195F734E70C8}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6167195F734E7090}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

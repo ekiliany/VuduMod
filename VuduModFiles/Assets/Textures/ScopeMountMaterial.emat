@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{0A3DD0D8B9B45C64}EotechVudu/Assets/Textures/mount_base_packed.edds"
+ NMOMap "{390D7986DA922EE0}EotechVudu/Assets/Textures/mount_normal_packed.edds"
+}
