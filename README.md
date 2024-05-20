@@ -2,7 +2,7 @@ List of major changes to be made:
 
 o	Brightness shoots up whenever aiming down sights. This is the #1 issue that needs solved before the scope is truly usable. Have solutions in mind to test soon.
 
-o	Scope PiP and 2D now match decently, but now the scope is effectively zooming out a bit at 1x as opposed to matching 1:1 with unscoped world scale. This is issue #2 right behind the brightness stuff. Need to figure out how to balance all of this out so 2D and PiP are both true 1x
+o	!!!SOLVED!!!! Scope PiP and 2D now match decently, but now the scope is effectively zooming out a bit at 1x as opposed to matching 1:1 with unscoped world scale. This is issue #2 right behind the brightness stuff. Need to figure out how to balance all of this out so 2D and PiP are both true 1x
 
 o	Colliders need to be added. Just got too deep in tweaking functionality and left this behind momentarily. This has already been done for the Vortex scope, so will be easy to complete ASAP.
 
