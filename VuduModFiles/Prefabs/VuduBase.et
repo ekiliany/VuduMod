@@ -39,85 +39,53 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
    LayerPreset "ItemFireView"
    ModelGeometry 1
   }
-  SCR_2DPIPSightsComponent "{616551282585E64D}" {
-   SightsPosition PointInfo "{616551282585E64B}" {
+  SCR_2DPIPSightsComponent "{616815E39194C772}" {
+   SightsPosition PointInfo "{616815E3ABF2079E}" {
     PivotID "eye"
    }
    SightsRanges {
-    SightRangeInfo "{616551282585E648}" {
+    SightRangeInfo "{616815F06C55F684}" {
      Range 0.08 100
-     WeaponPosition PointInfo "{616551282585E647}" {
-      Offset 0 -0.0012 -0.00037
-      Angles 0.14804 0 0
-     }
     }
-    SightRangeInfo "{616551282585E646}" {
+    SightRangeInfo "{616815F06C00B737}" {
      Range 0.1 200
     }
-    SightRangeInfo "{616551282585E645}" {
+    SightRangeInfo "{616815F06CCECA50}" {
      Range 0.14804 300
     }
-    SightRangeInfo "{616551282585E644}" {
+    SightRangeInfo "{616815F06CBC1592}" {
      Range 0.20558 400
     }
-    SightRangeInfo "{616551282585E642}" {
+    SightRangeInfo "{616815F06361F87E}" {
      Range 0.27268 500
     }
-    SightRangeInfo "{616551282585D30B}" {
+    SightRangeInfo "{616815F0630F60F5}" {
      Range 0.34943 600
     }
-    SightRangeInfo "{616551282585D309}" {
-     Range 0.43521 700
-    }
-    SightRangeInfo "{616551282585BEE0}" {
-     Range 0.53376 800
-    }
    }
-   SightsFOVInfo SCR_SightsZoomFOVInfo "{616551282585BE9D}" {
+   SightsFOVInfo SCR_SightsZoomFOVInfo "{616815E13664521D}" {
     m_fZoomMax 6
     m_fStepZoomSize 1
     m_fInterpolationSpeed 20
    }
-   SightsPointFront PointInfo "{616551282585BE9C}" {
+   SightsPointFront PointInfo "{616815E3B644355F}" {
     PivotID "optic_front"
    }
-   SightsPointRear PointInfo "{616551282585BE87}" {
+   SightsPointRear PointInfo "{616815E04BA07C34}" {
     PivotID "optic_rear"
    }
-   ADSTime 0.5
-   CameraRecoilAmount 0.1
    SightsPriority 1
    SoundInt 10002
    m_sLayoutResource "{4CE66FA8219D33D7}UI/layouts/Sights/Optic_Default.layout"
    m_sReticleTexture "{EFF9ACBF8D8519B0}Assets/BaconOptics/M110/data/reticle.edds"
    m_sReticleGlowTexture "{8216663B8B37D20E}Assets/BaconOptics/M110/data/reticle_glow.edds"
    m_fMagnification 1
-   m_fReticleAngularSize 1.4
-   m_fReticlePortion 0.19531
-   m_fReticleBaseZoom 0
-   m_fObjectiveFov 10
-   m_fObjectiveScale 1
-   m_fVignetteScale 1
-   m_fAnimationSpeedBlur 3
-   m_fVignetteMoveSpeed 2
-   m_fMotionBlurScale 10
-   m_fADSActivationPercentage 1
+   m_fReticleAngularSize 10
+   m_fObjectiveFov 18.85
    m_eZeroingType EPZ_CAMERA_TURN
-   m_fReticleOffsetY 0
-   m_fReticleOffsetInterpSpeed 20
-   m_bShouldHideParentParentObject 0
-   m_fRecoilScaleMax 1.5
-   m_iCameraIndex 8
-   m_fMainCameraFOV 27.5
-   m_fNearPlane 0.3
+   m_fMainCameraFOV 21
    m_rScopeHDRMatrial "{A3EBBBEF6E9D471E}Assets/BaconOptics/M110/Scope_HDR.emat"
-   m_fCenterDistance 0
-   m_fDistanceMoveNear 0.6
-   m_fBasicParallax 0.8
-   m_fMaxParallax 1.9
-   m_fCenterOffsetY 0
-   m_fScopeRadius 0.01
-   m_fReticlePIPScale 0.55
+   m_fScopeRadius 0.01885
   }
   ActionsManagerComponent "{5284E0EFF569AD07}" {
    ActionContexts {
@@ -148,5 +116,5 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
    }
   }
  }
- coords 128.539 1.001 138.428
+ coords 0 0 0
 }
