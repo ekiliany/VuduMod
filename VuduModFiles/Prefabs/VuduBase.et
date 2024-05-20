@@ -30,7 +30,7 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
    }
   }
   MeshObject "{616551282585E650}" {
-   Object "{355AED62F3E80499}EotechVudu/Assets/VuduBlender02.xob"
+   Object "{355AED62F3E80499}EotechVudu/Assets/VuduModel.xob"
    LODFactors {
     0.3 0.25 0.15 0.1
    }
@@ -83,7 +83,7 @@ GenericEntity : "{2E0E3D7D1DD0FF8F}Prefabs/Weapons/Core/Attachment_Base.et" {
    m_fReticleAngularSize 10
    m_fObjectiveFov 18.85
    m_eZeroingType EPZ_CAMERA_TURN
-   m_fMainCameraFOV 21
+   m_fMainCameraFOV 29
    m_rScopeHDRMatrial "{A3EBBBEF6E9D471E}Assets/BaconOptics/M110/Scope_HDR.emat"
    m_fScopeRadius 0.01885
   }
