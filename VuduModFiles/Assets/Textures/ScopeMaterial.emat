@@ -1,5 +1,4 @@
 MatPBRBasic {
- Color 0.305 0.305 0.305 1
  BCRMap "{E864DF824F61C2DE}EotechVudu/Assets/Textures/scope_base_packed.edds"
  NMOMap "{23905179AEFE8FB0}EotechVudu/Assets/Textures/scope_normal_packed.edds"
 }
